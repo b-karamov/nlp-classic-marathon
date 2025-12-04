@@ -1,7 +1,7 @@
 from sklearn.datasets import load_iris
 from sklearn.model_selection import train_test_split
 
-from linear_models import LogisticRegression
+from linear_model import LogisticRegression
 
 
 if __name__ == "__main__":

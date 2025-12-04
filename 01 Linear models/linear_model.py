@@ -10,7 +10,7 @@ class LogisticRegression:
             self,
             lr: float = 0.001,
             max_epochs: int = 100,
-            batch_size: int = None,
+            batch_size: int | None = None,
             regularization: str | None =None,
             regularization_lambda: float = 0.01,
             tol: float = 1e-6,
