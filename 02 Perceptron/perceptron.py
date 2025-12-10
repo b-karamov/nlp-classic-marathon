@@ -65,7 +65,7 @@ class MultiLayerPerceptron:
                 end_idx = min(start_idx + self.batch_size, n_samples)
                 yield X_shuffled[start_idx:end_idx], y_shuffled[start_idx:end_idx]
 
-     # --- прямой проход ---
+    # --- прямой проход ---
     def _forward(self, X: np.ndarray) -> tuple[list[np.ndarray], list[np.ndarray]]:
         """
         Возвращает:
